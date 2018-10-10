@@ -18,7 +18,12 @@ Nifty Assignment: Training a neural network for medical image processing
 
 # System Requirements
 
+* GNU/Linux system
+  * Python 2 installed - DLTK highly recommends Python 3, but you may come across erros when installing tensorflow-gpu
+* NVIDIA GPU for faster training that supports CUDA
+* Plenty of hard drive space, as DLTK uses training sets large in file size
+
 # Assignment instructions
 
-# Credit
+# Credits
 
