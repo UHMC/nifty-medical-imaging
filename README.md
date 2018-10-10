@@ -20,10 +20,41 @@ Nifty Assignment: Training a neural network for medical image processing
 
 * GNU/Linux system
   * Python 2 installed - DLTK highly recommends Python 3, but you may come across erros when installing tensorflow-gpu
+    * Pip is installed
+    * virtualenv is installed
 * NVIDIA GPU for faster training that supports CUDA
 * Plenty of hard drive space, as DLTK uses training sets large in file size
 
 # Assignment instructions
 
-# Credits
+1. Clone the DLTK git repository
+   ```shell
+   git clone https://github.com/DLTK/DLTK.git
+   ```
+2. Navigate to the DLTK folder
+   ```shell
+   cd DLTK
+   ```
+   
+3. Create a virtual python environment
+   ```shell
+   virtualenv -p python2 venv_tf
+   ```
 
+4. Activate the virtual environment
+   ```shell
+   source venv_tf/bin/activate
+   ```
+
+5. Install the dependencies for DLTK within the virtual environment
+   ```shell
+   pip install -e .
+   ```
+
+6. Install tensorflow
+   ```shell
+   pip install tensorflow-gpu==1.4.0
+   ```
+
+
+# Credits
