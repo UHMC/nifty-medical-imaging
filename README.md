@@ -16,4 +16,9 @@ Nifty Assignment: Training a neural network for medical image processing
 | Dependencies | Requires understanding of Machine Learning training models and understanding of visual data. |
 | Variants | Advanced Machine Learning classes may delve into the source code of the training models. |
 
+# System Requirements
+
 # Assignment instructions
+
+# Credit
+
