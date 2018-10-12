@@ -26,7 +26,7 @@ Nifty Assignment: Training a neural network for medical image processing
 * Plenty of hard drive space, as DLTK uses training sets large in file size
 
 # Assignment instructions
-
+## Setting up DLTK
 1. Clone the DLTK git repository
    ```shell
    git clone https://github.com/DLTK/DLTK.git
@@ -56,5 +56,16 @@ Nifty Assignment: Training a neural network for medical image processing
    pip install tensorflow-gpu==1.4.0
    ```
 
+## Downloading the training sets
+1. Go to the IXI_HH folder under data
+   ```shell
+   cd DLTK/data/IXI_HH
+   ```
+
+2. Run the download script
+   ```shell
+   python download_IXI_HH.py
+   ```
+   Note that the download may take a long time and may need to be left overnight depending on your internet connetion.
 
 # Credits
