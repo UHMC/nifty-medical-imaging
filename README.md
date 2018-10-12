@@ -73,8 +73,8 @@ Nifty Assignment: Training a neural network for medical image processing
 
 ## Start training
 ### IXI_HH sex classification using resnet
-    Note: Any time you are training or inferencing, make sure the python virtual environment is enabled
 
+    Note: Any time you are training or inferencing, make sure the python virtual environment is enabled
     *Make sure the python virtual environment is enabled*
    ```shell
    source DLTK/venv_tf/bin/activate
@@ -101,7 +101,7 @@ Nifty Assignment: Training a neural network for medical image processing
 
 5. Open a browser to access Tensorboard, by default, Tensorboard opens on port 6006
    ```shell
-   http://127.0.0.1:6006
+   http://localhost:6006
    ```
 
 # Credits
