@@ -73,6 +73,35 @@ Nifty Assignment: Training a neural network for medical image processing
 
 ## Start training
 ### IXI_HH sex classification using resnet
+    Note: Any time you are training or inferencing, make sure the python virtual environment is enabled
 
+    *Make sure the python virtual environment is enabled*
+   ```shell
+   source DLTK/venv_tf/bin/activate
+   ```
+
+1. Go to the IXI_HH_sex_classification folder
+   ```shell
+   cd DLTK/examples/applications/IXI_HH_sex_classification
+   ```
+
+2. Create a folder to keep your model progress in
+   ```shell
+   mkdir my_model
+   ```
+
+3. Begin training
+   ```shell
+   python train.py --verbose --cuda_devices 0 --model_path my_model
+
+4. Start up TensorBoard to observe the training progress
+   ```shell
+   tensorboard --logdir .
+   ```
+
+5. Open a browser to access Tensorboard, by default, Tensorboard opens on port 6006
+   ```shell
+   http://127.0.0.1:6006
+   ```
 
 # Credits
