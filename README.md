@@ -56,7 +56,10 @@ Nifty Assignment: Training a neural network for medical image processing
    pip install tensorflow-gpu==1.4.0
    ```
 
-## Downloading the training sets
+## Downloading the IXI data sets for training
+
+   For more information on the IXI dataset, visit https://brain-development.org/ixi-dataset/
+
 1. Go to the IXI_HH folder under data
    ```shell
    cd DLTK/data/IXI_HH
@@ -67,5 +70,9 @@ Nifty Assignment: Training a neural network for medical image processing
    python download_IXI_HH.py
    ```
    Note that the download may take a long time and may need to be left overnight depending on your internet connetion.
+
+## Start training
+### IXI_HH sex classification using resnet
+
 
 # Credits
