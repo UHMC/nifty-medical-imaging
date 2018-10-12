@@ -74,8 +74,8 @@ Nifty Assignment: Training a neural network for medical image processing
 ## Start training
 ### IXI_HH sex classification using resnet
 
-    Note: Any time you are training or inferencing, make sure the python virtual environment is enabled
-    *Make sure the python virtual environment is enabled*
+Note: Any time you are training or inferencing, make sure the python virtual environment is enabled
+*Make sure the python virtual environment is enabled*
    ```shell
    source DLTK/venv_tf/bin/activate
    ```
