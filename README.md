@@ -114,7 +114,8 @@ Nifty Assignment: Training a neural network for medical image processing
 ![eval](screenshots/medimages.png)
 
 ### t-SNE graphs
+*For information on how to effectively understand t-SNE graphs, see the following Distill entry: https://distill.pub/2016/misread-tsne/
 
-![tsne](TSNE.png)
+![tsne](screenshots/TSNE.png)
 
 # Credits
