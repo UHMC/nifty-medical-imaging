@@ -103,4 +103,18 @@ Nifty Assignment: Training a neural network for medical image processing
    http://localhost:6006
    ```
 
+## Tensorboard interface
+
+### Accuracy and Loss graphs
+
+![Accurcy and Loss](screenshots/accloss.png)
+
+### Image evaluation
+
+![eval](screenshots/medimages.png)
+
+### t-SNE graphs
+
+![tsne](TSNE.png)
+
 # Credits
