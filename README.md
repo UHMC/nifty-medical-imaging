@@ -121,9 +121,9 @@ Nifty Assignment: Training a neural network for medical image processing
 ## Inference
 
 By default, inference runs on random images from the data set and infers whether they are male or female.
-	```shell
-	python -u deploy.py --model_path my_model
-	```
+   ```shell
+   python -u deploy.py --model_path my_model
+   ```
 ![inference](screenshots/inference.png)
 
 
