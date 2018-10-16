@@ -5,6 +5,7 @@ Nifty Assignment: Training a neural network for medical image processing
 
 
 # Meta-information
+
 | Attribute | Explanation |
 | ------------- | ------------- |
 | Summary | Set-up an environment with TensorFlow and the Deep Learning Tool Kit to train and run inference on sample medical imagesets.  |
