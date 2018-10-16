@@ -129,3 +129,4 @@ By default, inference runs on random images from the data set and infers whether
 
 
 # Credits
+Assignment possible thanks to the work of the great people at the [Deep Learning Tool Kit](https://dltk.github.io)
