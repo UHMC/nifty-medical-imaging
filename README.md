@@ -1,7 +1,9 @@
 Nifty Assignment: Training a neural network for medical image processing
 =======================
 # Background
+Medical imaging is becoming an increasingly popular application of Machine Learning. Medical practitioners can use software to obtain diagnosis or second opinions on X-Ray images, lowering the chances of a missed threat.
 
+In this assignment, students will be able to set up a model to train using the Deep Learning Tool Kit and Tensorflow. 
 
 
 # Meta-information
