@@ -95,6 +95,7 @@ In this assignment, students will be able to set up a model to train using the D
 3. Begin training
    ```shell
    python train.py --verbose --cuda_devices 0 --model_path my_model
+   ```
 
 4. Start up TensorBoard to observe the training progress
    ```shell
